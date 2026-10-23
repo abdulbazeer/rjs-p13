@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 const file = fs.readFileSync("src/App.js", "utf8");
 
